@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1 class="title">CSS Grid Layout</h1class>
+					<img src="./assets/img/CSS-Grid-Layout.jpg.webp" alt="logo" class="img img_logo">
+				</section>
+				<section>
+					<div>
+						<p class="paragraph">CSS Grid is a modern and most powerful layout technique which is available in CSS that allows designing a web page using a grid-based layout system.</p>
+						<p class="paragraph">CSS grid is a two-dimensional system as compared to other design elements like using flexbox. It helps web developers in the alignment of web elements according to needs and the elements can be divided into different regions with relationships such as size, layer, position, etc. Doing some changes in the Grid layout system won’t affect the other elements. CSS grid layout system is different from CSS frameworks available and it allows web developers more freedom in terms of design.</p>
+					</div>
+				</section>
+				<section>
+
+						<h2>
+							Grid Container: display property
+						</h2>
+
+					<div>
+						<p class="paragraph">
+							For making the grid we define a grid-container which is a parent and all the elements in it are grid-child.
+						</p>
+						<p class="paragraph">
+							The parent element here is defined with display : grid property. This will set the grid to the block level. This property is must while defining grid layout. All the child elements in grid container will automatically be treated as grid childs.
+						</p>
+					</div>
+				</section>
+				<section>
+
+						<h2>
+							Grid Container: grid-template-columns
+						</h2>
+
+					<div>
+						This property will divide the grid layout into based out of columns. The number of values supplied will decide a number of columns.
+					</div>
+				</section>
+				<section>
+
+						<h2>
+							Grid Container: grid-template-rows
+						</h2>
+
+				</section>
+				<section>
+
+						<h2>
+							Grid Container: grid-gap
+						</h2>
+
+				</section>
+				<section>
+
+						<h2>
+							Conclusion
+						</h2>
+
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
